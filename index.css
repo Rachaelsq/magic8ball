@@ -12,7 +12,21 @@
 
 html, body{
     height: 100%;
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-image: url('') ;
+}
+/* background-image: linear-gradient( 135deg, #8761df 10%, #b63ee6 100%);} */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 50px;
+    font-size: 35px;
+
 }
 
 #enchanted8Ball {
@@ -30,10 +44,15 @@ html, body{
 
 .inputBox {
     margin-right: 50px;
+    width: 30%;
+    height: 30px;
+    border: 2px solid blueviolet;
+    border-radius: 3px;
 }
 
 .submit {
     background-color: #FF3CAC;
+    
     display: block;
     padding-right: 20px;
     padding-left: 20px;
@@ -44,7 +63,17 @@ html, body{
     font-size: 30px;
     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }
+#theBall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-/* #magic8Ball {
-display: block;
-} */
+.magic8Ball {
+    margin-top: 60 px;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    max-height: 60%;
+
+}

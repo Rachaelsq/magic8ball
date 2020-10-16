@@ -12,7 +12,9 @@
 
 html, body{
     height: 100%;
-    background-image: url('') ;
+    width: 100%;
+    /* background-size: 1800px; */
+    background-image: url('https://intuitiveharmonymedicine.com/wp-content/uploads/2020/10/seamlessvectorstars-1024x819.png') ;
 }
 /* background-image: linear-gradient( 135deg, #8761df 10%, #b63ee6 100%);} */
 
@@ -25,7 +27,9 @@ html, body{
 ul {
     list-style-type: none;
     margin-bottom: 50px;
-    font-size: 35px;
+    font-size: 25px;
+    color: white;
+
 
 }
 
@@ -34,6 +38,9 @@ ul {
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
+    color: white;
+    font-size: 55px;
+
 }
 
 #BallCard {
@@ -45,22 +52,26 @@ ul {
 .inputBox {
     margin-right: 50px;
     width: 30%;
-    height: 30px;
-    border: 2px solid blueviolet;
+    height: 35px;
+    border: 3px solid blueviolet;
     border-radius: 3px;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+
 }
 
 .submit {
     background-color: #FF3CAC;
-    
     display: block;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
     box-shadow: 5px 3px rgba(23, 0, 87, 0.5);
-    font-size: 30px;
+    font-size: 25px;
     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }
 #theBall {
@@ -73,7 +84,37 @@ ul {
     margin-top: 60 px;
     align-items: center;
     justify-content: center;
-    max-width: 60%;
-    max-height: 60%;
+    /* max-width: 70%;
+    max-height: 70%;
+    margin-bottom: 50px; */
 
 }
+
+
+
+
+
+
+
+  
+
+
+
+  @media only screen and (max-width: 799px) {
+ 
+    .magic8Ball {
+        max-width: 60%;
+        max-height: 60%;
+    }
+    }
+
+    @media screen and (min-width: 800px) {
+       
+        .magic8Ball {
+            min-width: 20%;
+            min-height: 20%;
+            max-width: 600px;
+            max-height: 600px;
+            margin-bottom: 30px;
+        }
+        }

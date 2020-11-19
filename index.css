@@ -79,26 +79,14 @@ ul {
   justify-content: center;
 }
 
-.magic8Ball {
-  margin-top: 60 px;
-  align-items: center;
-  justify-content: center;
-  /* max-width: 70%;
-    max-height: 70%;
-    margin-bottom: 50px; */
-}
-
 #answerContainerId {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  font-size: 25px;
 }
 
-.answerContainerClass {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 /* below are media screens */
 

@@ -3,16 +3,21 @@
 
 const listOfAnswers = [
   "No Way!",
+  "Try again later",
+  "Never",
+  "After Covid",
+  "You lost your chance",
+  "I don't know, but isn't this the best website you have ever seen?",
+  "In another dimension, maybe.",
+  "Yeah whatever",
+  "When pigs fly",
   "Yes",
   "Plain and simple: no.",
-  "You're kidding, right",
+  "You're kidding, right?",
 ];
 
 window.onload = function () {
-  let answerContainerParagraph = document.getElementById(
-    "answerContainerParagraph"
-  );
-  let answer = document.getElementById("answer");
+  let answerContainerParagraph = document.getElementById("answerContainerParagraph");
   let submitButton = document.getElementById("submitButton");
   let question = document.getElementById("question");
 
@@ -21,7 +26,7 @@ window.onload = function () {
       alert("Enter a question!");
     } else {
       answerContainerParagraph.innerText = "";
-      var num = Math.floor(Math.random() * Math.floor(listOfAnswers.length));
+      let num = Math.floor(Math.random() * Math.floor(listOfAnswers.length));
       answerContainerParagraph.innerText = listOfAnswers[num];
     }
   });

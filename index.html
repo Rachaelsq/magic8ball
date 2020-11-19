@@ -1,96 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-        </style>
-
+      @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+    </style>
 
     <link rel="stylesheet" type="text/css" href="index.css" />
 
     <title>Enchanted 8 Ball</title>
-</head>
-
-<header id="navbar">
+  </head>
+  <!-- begin navbar -->
+  <header id="navbar">
     <nav>
-        <ul class="navElements">
-            <li>Home</li>
-        </ul>
+      <ul class="navElements">
+        <li>Home</li>
+      </ul>
     </nav>
-
-
-</header>
-
-
-
-<body>
-
+    <!-- end navbar -->
+  </header>
+  <body>
     <h1 id="enchanted8Ball">Enchanted 8 Ball</h1>
-<div id="BallCard">
-    <input class="inputBox" type="text">
-    <input class="submit" type="submit">
-</div>
 
-<div id="theBall">
-<img class="magic8Ball" src="https://intuitiveharmonymedicine.com/wp-content/uploads/2020/10/magic-8-ball-1-1003x1024.png" alt="magic 8 ball">
+    <!-- this is the submit bar -->
+    <div id="BallCard">
+      <input id="question" class="inputBox" type="text" />
+      <input id="submitButton" class="submit" type="submit" />
+    </div>
+    <!-- end of submit bar -->
 
-<script type="text/javascript">
+    <!-- this is the image of the 8 ball -->
+    <div id="theBall">
+      <img
+        class="magic8Ball"
+        src="https://intuitiveharmonymedicine.com/wp-content/uploads/2020/10/magic-8-ball-1-1003x1024.png"
+        alt="magic 8 ball"
+      />
+    </div>
+    <!-- end image of 8 ball -->
 
-// the array stores the answers (listOfAnswers)
-// .onload is used executes the code immediately. I state what to execute with the function
+    <!-- begin div for 8 ball answer -->
+    <div id="answerContainerId">
+      <div class="answerContainerClass">
+        <p id="answerContainerParagraph"></p>
+      </div>
+    </div>
+    <!-- end div for 8 ball answer -->
 
-let listOfAnswers = 
-    ["No Way!",
-    "Yes",
-    "Plain and simple: no.",
-    "You're kidding, right",];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
-
-
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>

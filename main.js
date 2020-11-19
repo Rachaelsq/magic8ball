@@ -17,13 +17,15 @@ const listOfAnswers = [
 ];
 
 window.onload = function () {
-  let answerContainerParagraph = document.getElementById("answerContainerParagraph");
+  let answerContainerParagraph = document.getElementById(
+    "answerContainerParagraph"
+  );
   let submitButton = document.getElementById("submitButton");
   let question = document.getElementById("question");
 
   submitButton.addEventListener("click", function () {
     if (question.value.length < 1) {
-      alert("Enter a question!");
+      alert("Enter a question first!");
     } else {
       answerContainerParagraph.innerText = "";
       let num = Math.floor(Math.random() * Math.floor(listOfAnswers.length));

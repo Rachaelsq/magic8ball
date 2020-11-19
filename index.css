@@ -29,7 +29,7 @@ ul {
   color: white;
 }
 
-#enchanted8Ball {
+#header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,6 +57,7 @@ ul {
 
 .submit {
   background-color: #ff3cac;
+  color: white;
   display: block;
   margin-bottom: 40px;
   padding-right: 10px;
@@ -75,18 +76,39 @@ ul {
 }
 #theBall {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 #answerContainerId {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
   color: white;
   font-size: 25px;
+  background-color: #ff3cac;
+  display: block;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 3px rgba(23, 0, 87, 0.5);
+  font-size: 25px;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
 }
-
 
 /* below are media screens */
 

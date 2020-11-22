@@ -80,14 +80,23 @@ ul {
   justify-content: center;
 }
 
-img {
+/* this class is for the img of the 8 ball */
+.magic8Ball {
   width: 450px;
 }
 
-img:hover {
+/* img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: 2;
+} */
+
+img {
   animation: shake 0.5s;
   animation-iteration-count: 2;
 }
+
+
+
 
 @keyframes shake {
   0% {
